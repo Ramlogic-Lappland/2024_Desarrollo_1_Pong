@@ -1,5 +1,8 @@
 # Folders
-Pong/x64/	
+Pong/Debug/
+Pong/.vs/
+Pong/Debug/
+Pong/Game/Debug/	
 
 # Prerequisites
 *.d
