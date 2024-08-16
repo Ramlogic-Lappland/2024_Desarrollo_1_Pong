@@ -1,3 +1,6 @@
+# Folders
+Pong/x64/	
+
 # Prerequisites
 *.d
 
@@ -11,20 +14,11 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
 
 # Fortran module files
 *.mod
 *.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe

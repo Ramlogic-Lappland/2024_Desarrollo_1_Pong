@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aula 1\\Desktop\\2024_Desarrollo_1_Pong\\Pong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6BA7BEC-378E-4930-8DE6-A06FEA229C0E}|Game\\Game.vcxproj|C:\\Users\\Aula 1\\Desktop\\2024_Desarrollo_1_Pong\\Pong\\Game\\BaseGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A6BA7BEC-378E-4930-8DE6-A06FEA229C0E}|Game\\Game.vcxproj|solutionrelative:Game\\BaseGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseGame.cpp",
+              "DocumentMoniker": "C:\\Users\\Aula 1\\Desktop\\2024_Desarrollo_1_Pong\\Pong\\Game\\BaseGame.cpp",
+              "RelativeDocumentMoniker": "Game\\BaseGame.cpp",
+              "ToolTip": "C:\\Users\\Aula 1\\Desktop\\2024_Desarrollo_1_Pong\\Pong\\Game\\BaseGame.cpp",
+              "RelativeToolTip": "Game\\BaseGame.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-16T12:27:52.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
