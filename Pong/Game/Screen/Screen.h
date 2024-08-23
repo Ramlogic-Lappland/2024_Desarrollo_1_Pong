@@ -1,9 +1,7 @@
 #pragma once
-#include "../BaseGame.h"
+#include "raylib.h"
 
 struct Screen {
-	string nameS;
-	const char* name = nameS.c_str();
-	Vector2 size; 
+	const char* name;
+	Vector2 size;
 };
-

@@ -1,8 +1,9 @@
 #pragma once
-#include <iostream>
-#include "raylib.h"
-using namespace std;
-
+#include "SceneManager.h"
 #include "player/player.h"
-#include "Screen/Screen.h"
 #include "Ball/Ball.h"
+
+void initGame();
+void updateGame();
+void drawGame();
+void closeGame();
