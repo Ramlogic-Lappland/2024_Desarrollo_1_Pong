@@ -9,6 +9,8 @@ int run(void)
 {
     init();
 
+    SetTargetFPS(60);
+
     while (!WindowShouldClose())
     {
         update();
@@ -67,5 +69,5 @@ void draw()
 void close()
 {
     CloseWindow();
-    closeGame();
+    deInitGameAssets();
 }

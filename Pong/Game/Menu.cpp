@@ -7,7 +7,7 @@ using namespace std;
 
 void initMenu()
 {
-    static string thisScreenName =  "Menu - Screen";
+    static string thisScreenName =  "Pong";
 
     screen.name = thisScreenName.c_str();
 }
@@ -23,7 +23,7 @@ void updateMenu()
 
 void drawMenu()
 {
-    DrawText("MENU!", (screen.size.x / 2) - MeasureText("MENU!", 40), 200, 40, BLUE);
+    DrawText("MENU!", (screen.size.x / 2) - MeasureText("MENU!", 20), 80, 40, BLUE);
 
-    DrawText("PRESS SPACE TO START!", (screen.size.x / 2) - MeasureText("PRESS SPACE TO START!", 40), 300, 40, BLUE);
+    DrawText("PRESS SPACE TO START!", (screen.size.x / 2) - MeasureText("PRESS SPACE TO START!", 20), 120, 40, BLUE);
 }

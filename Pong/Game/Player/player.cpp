@@ -9,10 +9,12 @@ void  initPlayer(createPlayer& player, int lives, float speed, Vector2 screenSiz
 
 	player.size.x = screenSize.x / 26;
 	player.size.y = screenSize.y / 5;
-
-
-	player.Rec = { player.position.x, player.position.y, player.size.x, player.size.y };
 	
+}
+
+void initPlayerRec(createPlayer& player)
+{
+	player.Rec = { player.position.x, player.position.y, player.size.x, player.size.y };
 }
 
 void playerUp(createPlayer& player)

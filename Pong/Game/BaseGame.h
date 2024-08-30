@@ -6,4 +6,5 @@
 void initGame();
 void updateGame();
 void drawGame();
-void closeGame();
+void initGameAssets();
+void deInitGameAssets();

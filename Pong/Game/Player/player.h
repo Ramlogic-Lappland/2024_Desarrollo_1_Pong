@@ -12,7 +12,7 @@ struct createPlayer
 };
 
 void  initPlayer(createPlayer& player, int lives, float speed, Vector2 screenSize);
-
+void initPlayerRec(createPlayer& player);
 
 void playerUp(createPlayer& player);
 
