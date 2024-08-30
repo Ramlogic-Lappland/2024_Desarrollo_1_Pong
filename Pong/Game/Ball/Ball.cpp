@@ -1,16 +1,11 @@
 #include "Ball.h"
 
-createBall::createBall(){
-	//ball
-	Position = { GetScreenWidth() / 2.0f, GetScreenHeight() / 2.0f };
-	Speed = { 5.0f, 4.0f };
-	Radius = 20;
 
-	bool collision1 = false;
-	bool collision2 = false;
+void initBall(createBall& ball,Vector2 screenSize, int rad)
+{
+    ball.collision1 = false;
+    ball.collision2 = false;
+    ball.Position = { screenSize.x / 2.0f, screenSize.y / 2.0f };
+    ball.Speed = { 5.0f, 4.0f };
+    ball.Radius = rad;
 }
-
-createBall::~createBall() {
-
-}
-

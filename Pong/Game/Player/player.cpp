@@ -1,33 +1,26 @@
 #include "player.h"
 
 
-createPlayer::createPlayer()
+void  initPlayer(createPlayer& player, int lives, float speed, Vector2 screenSize)
 {
 
+	player.life = lives;
+	player.speed = speed;
+
+	player.size.x = screenSize.x / 26;
+	player.size.y = screenSize.y / 5;
+
+
+	player.Rec = { player.position.x, player.position.y, player.size.x, player.size.y };
+	
 }
 
-createPlayer::~createPlayer()
+void playerUp(createPlayer& player)
 {
-
+	if (player.Rec.y - player.speed > 0) player.Rec.y -= player.speed;
 }
 
-void  createPlayer::initPlayer()
+void playerDown(createPlayer& player, Vector2 Screen)
 {
-	size.x = screen.size.x / 26; size.y = screen.size.y / 4.5f;
-	speed = 8;
-}
-
-void createPlayer::initPlayerRec()
-{
-	Rec = { position.x, position.y, size.x, size.y };
-}
-
-void createPlayer::up()
-{
-	if (Rec.y - speed > 0) Rec.y -= speed;
-}
-
-void createPlayer::down(Vector2 gameScreen)
-{
-	if (Rec.y + speed < (gameScreen.y - Rec.height)) Rec.y += speed;
+	if (player.Rec.y + player.speed < (Screen.y - player.Rec.height)) player.Rec.y += player.speed;
 }

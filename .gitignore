@@ -2,7 +2,10 @@
 Pong/Debug/
 Pong/.vs/
 Pong/Debug/
-Pong/Game/Debug/	
+Pong/x64/
+Pong/Game/Debug/
+Pong/Game/Release/
+Pong/Game/x64/	
 
 # Prerequisites
 *.d

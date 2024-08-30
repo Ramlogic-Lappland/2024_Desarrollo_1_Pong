@@ -1,7 +1,7 @@
 #pragma once
-#include "SceneManager.h"
 #include "player/player.h"
 #include "Ball/Ball.h"
+#include "SceneManager.h"
 
 void initGame();
 void updateGame();

@@ -1,6 +1,9 @@
-#include "SceneManager.h"
-#include "BaseGame.h"
 #include "Menu.h"
+#include "BaseGame.h"
+#include "SceneManager.h"
+
+Screen screen;
+CurrentScreen currentScreen;
 
 int run(void)
 {

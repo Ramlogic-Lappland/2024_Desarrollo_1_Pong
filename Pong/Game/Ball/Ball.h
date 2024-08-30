@@ -1,12 +1,8 @@
 #pragma once
-#include "../BaseGame.h"
+#include "raylib.h"
 
-class  createBall {
-public:
-    createBall();
-
-    ~createBall();
-
+struct  createBall
+{
     bool collision1;
     bool collision2;
     Vector2 Position;
@@ -14,3 +10,4 @@ public:
     int Radius;
 };
 
+void initBall(createBall& ball, Vector2 screenSize, int rad);

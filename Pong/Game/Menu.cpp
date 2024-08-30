@@ -1,3 +1,7 @@
+#include <iostream>
+#include "raylib.h"
+using namespace std;
+
 #include "Menu.h"
 #include "BaseGame.h"
 

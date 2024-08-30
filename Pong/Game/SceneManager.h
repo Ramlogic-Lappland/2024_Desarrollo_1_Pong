@@ -1,7 +1,5 @@
 #pragma once
-#include "Main.h"
-#include "Menu.h"
-#include "Screen/Screen.h"
+#include "raylib.h"
 
 int run(void);
 void init();
@@ -9,6 +7,10 @@ void update();
 void draw();
 void close();
 
+struct Screen {
+	const char* name;
+	Vector2 size;
+};
 
 enum CurrentScreen
 {

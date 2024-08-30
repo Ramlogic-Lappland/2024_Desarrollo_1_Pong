@@ -1,3 +1,7 @@
+#include "raylib.h"
+#include <iostream>
+using namespace std;
+
 #include "BaseGame.h"
 
 
@@ -13,8 +17,8 @@ void initGame()
     static string thisScreenName = "Pong";
     screen.name = thisScreenName.c_str();
 
-    player1.initPlayer();
-    player2.initPlayer();
+    initPlayer(player1, 3, 5, screen.size);
+    initPlayer(player2, 3, 5, screen.size);
 
     //Player 1 Position
     player1.position.x = 0 + (player1.size.x);
@@ -23,17 +27,19 @@ void initGame()
     player2.position.x = screen.size.x - (player2.size.x * 2);
     player2.position.y = (screen.size.y / 2) - (player2.size.y / 2);
 
-    player1.initPlayerRec();
-    player2.initPlayerRec();
+
+    //init ball
+    initBall(ball, screen.size, 20);
+
 }
 
 
 void updateGame()
 {
-    if (IsKeyDown(KEY_W)) player1.up();
-    if (IsKeyDown(KEY_S)) player1.down(screen.size);
-    if (IsKeyDown(KEY_UP)) player2.up();
-    if (IsKeyDown(KEY_DOWN)) player2.down(screen.size);
+    if (IsKeyDown(KEY_W)) playerUp(player1);;
+    if (IsKeyDown(KEY_S)) playerDown(player1, screen.size);
+    if (IsKeyDown(KEY_UP)) playerUp(player2);
+    if (IsKeyDown(KEY_DOWN)) playerDown(player2, screen.size);
 
     ball.Position.x += ball.Speed.x;
     ball.Position.y += ball.Speed.y;

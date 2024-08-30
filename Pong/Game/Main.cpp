@@ -1,6 +1,6 @@
 #include "Main.h"
 
-void main()
+int main()
 {
 	run();
 }
