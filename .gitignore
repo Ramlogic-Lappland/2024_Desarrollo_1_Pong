@@ -6,6 +6,8 @@ Pong/x64/
 Pong/Game/Debug/
 Pong/Game/Release/
 Pong/Game/x64/	
+Pong/bin/
+Pong/obj/
 
 # Prerequisites
 *.d
